@@ -5,11 +5,13 @@ datasets
 invoke
 jupyter
 jupyter_http_over_ws
+huggingface_hub>=0.23.0
 matplotlib
 nltk
 requests
 scikit-learn==1.0.2
-scipy==1.7.3
+# scipy==1.7.3
+scipy
 seaborn
 spacy
 tqdm
